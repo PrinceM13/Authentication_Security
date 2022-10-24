@@ -1,29 +1,4 @@
-Skip to content
-Product
-Solutions
-Open Source
-Pricing
-Search
-Sign in
-Sign up
-github
-/
-gitignore
-Public
-Code
-Pull requests
-332
-Actions
-Security
-Insights
-gitignore/Node.gitignore
-@yangshun
-yangshun Add Docusaurus files to Node.gitignore
-Latest commit 1d4e709 on Dec 23, 2021
- History
- 66 contributors
-@stuartpb@shiftkey@SimonSiefke@TennyZhuang@venatoria@ro31337@Richienb@noinkling@melonmanchan@kachick@gouthamve@jucrouzet
-130 lines (97 sloc)  2 KB
+.DS_Store
 
 # Logs
 logs
@@ -155,18 +130,3 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-gitignore/Node.gitignore at main · github/gitignore · GitHub

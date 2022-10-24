@@ -13,10 +13,14 @@ mongoose.connect("mongodb://localhost:27017/userDB")
 app.use(express.static("public"));
 app.set("view engine", "ejs");
 
-const userSchema = {
+const userSchema = new mongoose.Schema({
   email: String,
   password: String
-};
+});
+
+const secret = "Thisisangelasecret.";
+
+userSchema.plugin(encrypt, {secret: secret, encryptedFields: ["password"]})
 
 const User = mongoose.model("User", userSchema);
 
